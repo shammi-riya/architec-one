@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul li{
+   list-style: none;
+}
+image{
+    vertical-align: middle;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.nav_btn{
+    background: #007F5F;
+    border-radius: 17px;
+    padding: 16px 35px;
+}
+.nav_btn a{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.nav-item a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 10px;
+    color: #616161;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.nav-item a:hover{
+    color: #007F5F;
+}
+
+/* bannar part start here */
+.bannar{
+    
+   background: url(../images/1.png);
+    background-color: #f8f8f8f8;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 150px 0 0 0;
+    background-size: 60%;
+  
+    
+    
+
+}
+.bannar_text h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+}
+.bannar_text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #616161;
+
+    opacity: 0.7;
+}
+.bannar_btn{
+    background: #007F5F;
+    border-radius: 17px;
+    padding: 16px 35px;
+    display: inline-block;
+    
+}
+
+.bannar_btn a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+label i{
+    color: #007F5F;
+}
+.banner-search{
+    background: #007F5F;
+    border: 1px solid #FFFFFF;
+    padding: 15px;
+    color: #ffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* traval part start here */
+
+.traval_head
+,
+.popular_head{
+    text-align: center;
+    padding: 100px 0 0 50px;
+
+    
+}
+.traval_head h2,
+.popular_head h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #1E1E1E;
+}
+.traval_head p,
+.popular_head p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    
+    text-align: center;
+    
+    
+    
+    color: #616161;
+    
+}
+.traval_box{
+    padding: 30px;
+    background: #FFFFFF;
+
+border-radius: 14px;
+    margin: 10px;
+}
+.traval_box:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    
+}
+.traval_box img{
+    background: rgba(0, 127, 95, 0.1);
+border-radius: 14px;
+padding: 10px;
+}
+.traval_box h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+
+    letter-spacing: 0.2px;
+
+    margin: 10px 0;
+
+    color: #1E1E1E;
+}
+.traval_box p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+
+color: #616161;
+
+}
+/* popular part start */
+.popular_card{
+    
+    background: url(basilica-santa-maria-della-salute-grand-canal-blue-hour-sunset-venice-italy-with-boats-reflections.jpg);
+   border-radius: 14px;
+   
+   
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    
+   
+
+}
+.popular_card img{
+    width: 100%;
+}
+.mute_icon{
+    display: inline-block;
+}
+.popular_icon{
+    color: orange;
+}
+.popular_btn {
+    padding: 10px 30px;
+    color: #007F5F;
+    border-radius: 17px;
+     border: 1px solid #007F5F;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    padding-top: 10px;
+}
+
+.popular_btn:hover {
+    background: #007F5F;
+    color: #fff;
+    border: 1px solid transparent;
+    
+}
+
+/* Traval part start here */
+.Traval{
+    padding: 130px 0 0 0;
+}
+.traval_card{
+  background: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 17px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.traval_card:hover{
+   
+  background: #007F5F;
+
+  color: #fff;
+  
+}
+.traval_card i{
+   padding: 15px;
+  
+    background: rgba(30, 30, 30, 0.05);
+   border-radius: 14px;
+    color: #007F5F;
+    font-size: 22px;
+   
+
+}
+.left_traval h4{
+    
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+
+
+
+
+color: #1E1E1E;
+
+}
+
+.traval_card i:hover{
+    background-color: #fff;
+    color: #007F5F;
+}
+
+.list li i{
+   color: #007F5F;
+}
+
+/* selected part start here */
+
+.select_img{
+    /* background-image: url(../images/select2.png); */
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 100px 0;
+}
+.select_img{
+    position: relative;
+}
+.innar_img{
+    display: inline-block;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    content: "";
+    transform: translate(-50%,-50%);
+   
+}
+.primary_btn{
+    margin-top: 30px;
+}
+.primary_btn a{
+    padding: 16px 35px;
+    background: #007F5F;
+    border-radius: 17px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.select_innar p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #616161;
+    
+}
+
+.dark{
+    
+background: #B1E3FF;
+box-shadow: inset 0px -1px 0px #EFF3F5;
+border-radius: 8px 8px 0px 0px;
+
+}
+ i{
+    color:#B1E3FF ;
+}
+
+/* promo part start here */
+
+.img1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img3{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    content: "";
+    transform: translate(-50%,-30%);
+    -webkit-transform: translate(-50%,-30%);
+    -moz-transform: translate(-50%,-30%);
+    -ms-transform: translate(-50%,-30%);
+    -o-transform: translate(-50%,-30%);
+}
+.promo{
+    margin-top: 50px;
+}
+.promo_info h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #1E1E1E;
+
+}
+.promo_info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #616161;
+
+}
+.spacial img{
+    position: relative;
+}
+.spacila2{
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.menu li{
+   padding: 16px 35px;
+   background: #F3F3F3;
+   border-radius: 17px;
+   transition:0.5s ;
+   display: inline-block;
+   -webkit-transition:0.5s ;
+   -moz-transition:0.5s ;
+   -ms-transition:0.5s ;
+   -o-transition:0.5s ;
+   margin-top: 20px;
+}
+.menu li:hover{
+    background: #007F5F;
+    color: #EFF3F5;
+}
+.explore_text h2{
+    font-family: 'Poppins';
+
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.2px;
+color: #1E1E1E;
+
+}
+.explore_text p{
+    font-family: 'Poppins'; 
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #616161;
+
+
+}
+
+/* slick part start here */
+#explore{
+    margin: 50px 0;
+}
+
+
+  .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+
+	list-style-type: none;
+
+  }
+  .slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem 0;
+
+	list-style-type: none;
+
+  }
+  li {
+    margin: 0 0.25rem;
+}
+
+	
+
+
+
+	button {
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		padding: 0;
+
+		border: none;
+		border-radius: 100%;
+		background-color: orange;
+
+		text-indent: -9999px;
+	}
+
+	li.slick-active button {
+		background-color: #007F5F;
+	}
+
+
+
+    /* subscribe part start */
+#subscribe{
+    padding: 100px 0;
+    background-color: #007F5F;
+}
+.text{
+   margin: auto;
+   width: 30%;
+   
+}
+.sbu_input{
+    height: 50px;
+    width: 370px;
+   border-radius: 17px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   -ms-border-radius: 17px;
+   -o-border-radius: 17px;
+   border: 0;
+   outline: none;
+   background: #FFFFFF;
+   padding-left: 20px;
+   /* position: relative;
+   display: inline-block; */
+}
+.sub_btn a {
+    font-family: 'Poppins';
+   
+    font-weight: 600;  
+
+    text-decoration: none;
+
+   margin-left: -80px;
+    background-color: #007F5F;
+     
+     display: inline-block;
+     z-index: 4;
+     color: #000;
+    
+}
+.sub{
+    display: flex;
+}

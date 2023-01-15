@@ -1,0 +1,132 @@
+
+/* XX-Large devices (larger desktops) */
+@media (max-width: 1400px) { 
+    
+}
+/*  XX-Large devices (larger desktops) */
+@media (max-width: 1200px) {
+
+ }
+
+ /* XX-Large devices (larger desktops) */
+@media (max-width: 992px) { 
+
+ }
+ /* // Medium devices (tablets, 768px ) */
+@media (max-width: 768px) {
+
+ }
+ /* Small devices (landscape phones) */
+ @media (max-width: 576px) {
+    
+    .main{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    
+     }
+     .container{
+      width: 100%;
+     }
+     .menu ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+     }
+     
+     .bannar_head{
+    
+        font-size: 45px;
+        margin-top: 30px;
+        
+    }
+    .bannar_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    #bannar{
+      width: 100%;
+      padding: 50px 0;
+      display: block;
+      overflow: hidden;
+    }
+    
+     
+
+     /* feture */
+     .featurse{
+        display: flex;
+        flex-direction: column;
+     }
+     .featur_img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+        margin: 0 auto;
+     }
+     .featur_text{
+      width:90%;
+      margin: 0 auto;
+      
+   }
+
+     #facts{
+      padding: 50px 0;
+  }
+  .facts{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      row-gap: 20px;
+     
+   
+  }
+ 
+    .sponsor_head h2{
+      font-size: 30px;
+    }
+     .sponsor_item ul{
+       display: block;
+       
+     }
+     .sponsor_item ul li{
+      padding: 20px 0;
+     }
+     
+     .loves{
+      display: flex;
+      gap: 54px;
+      align-items: center;
+      flex-direction: column;
+
+    
+  }
+  .love_text{
+   width: 90%;
+   margin: 0 auto;
+}
+.love_img{
+   width: 90%;
+   margin: 0 auto;
+   height: 700px;
+}
+.love_img img{
+   width: 100%;
+    position: absolute;
+}
+
+
+.project_main{
+   display: flex;
+   justify-content: space-between;
+   gap: 10px;
+   flex-direction:column ;
+}
+
+  }
+
+
+
+
